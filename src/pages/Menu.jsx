@@ -28,6 +28,7 @@ const Menu = () => {
                   {menu.name}
                 </Typography>
                 <Typography variant="body2">{menu.description}</Typography>
+                <Typography variant="h6">Compartido por 🌱:{menu.author}</Typography>
               </CardContent>
             </CardActionArea>
           </Card>

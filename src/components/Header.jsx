@@ -8,6 +8,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
+//import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
 //import Logo from "../../images/logo.svg";
 
 import MenuIcon from "@mui/icons-material/Menu";
@@ -29,7 +30,7 @@ const Header = () => {
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
-        {/* <img src={Logo} alt="logo" height={"70"} width="200" /> */}
+      
       </Typography>
       <Divider />
       <ul className="mobile-navigation">

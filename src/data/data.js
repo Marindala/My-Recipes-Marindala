@@ -11,21 +11,21 @@ export const MenuList = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
     image: PanqGarbanzos,
-   /*  price: 200, */
+     author: "Marina López", 
   },
   {
     name: "Hamburgesas de Lentejas",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
     image: HamLent,
-  /*   price: 250, */
+    author: "Marina López", 
   },
   {
     name: "Budín de Algarroba y Lentejas",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
     image: Alga,
- /*    price: 300, */
+    author: "Marina López", 
   },
  /*  {
     name: "Masala Dosa",
