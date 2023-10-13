@@ -60,14 +60,14 @@ const Header = () => {
             Marindala
           </NavLink>
         </li>
-        <li>
+       {/*  <li>
           <NavLink
             to={"/contact"}
             className={window.location.pathname === "/contact" ? "active" : ""}
           >
             Contacto
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </Box>
   );
@@ -126,7 +126,7 @@ const Header = () => {
                     Marindala
                   </NavLink>
                 </li>
-                <li>
+              {/*   <li>
                   <NavLink
                     to={"/contact"}
                     className={
@@ -135,7 +135,7 @@ const Header = () => {
                   >
                     Contacto
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
             </Box>
           </Toolbar>

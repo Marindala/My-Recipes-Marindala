@@ -1,4 +1,4 @@
-import { WhatsApp } from "@mui/icons-material";
+/* import { WhatsApp } from "@mui/icons-material";
 import Layout from "../components/Layout";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import MailIcon from "@mui/icons-material/Mail";
@@ -72,4 +72,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact; */
