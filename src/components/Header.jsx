@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 //import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
-import Logo from "../assets/logo.png";
+import Logo from "../assets/otroLogo.png";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
