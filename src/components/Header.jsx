@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 //import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
-//import Logo from "../../images/logo.svg";
+import Logo from "../assets/logo.png";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
@@ -17,11 +17,11 @@ import "../styles/Header.css";
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
-  // hndle menu click
+
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
-  //menu drawer
+  
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography
@@ -30,7 +30,7 @@ const Header = () => {
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
-      
+       <img src={Logo} alt="logo" height={"100"} width="100" />
       </Typography>
       <Divider />
       <ul className="mobile-navigation">
@@ -94,7 +94,8 @@ const Header = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
-              {/* <img src={Logo} alt="logo" height={"70"} width="250" /> */}
+             <img src={Logo} alt="logo" height={"100"} width="100" /> 
+             
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
