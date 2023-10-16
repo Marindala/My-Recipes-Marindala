@@ -30,7 +30,7 @@ const Header = () => {
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
-       <img src={Logo} alt="logo" height={"100"} width="100" />
+       <img src={Logo} alt="logo" height={"90"} width="90" />
       </Typography>
       <Divider />
       <ul className="mobile-navigation">
@@ -94,7 +94,7 @@ const Header = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
-             <img src={Logo} alt="logo" height={"100"} width="100" /> 
+             <img src={Logo} alt="logo" height={"90"} width="90" /> 
              
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
