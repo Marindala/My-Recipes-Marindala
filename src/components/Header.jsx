@@ -23,7 +23,7 @@ const Header = () => {
   };
   
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center",  height: 100  }}>
       <Typography
         color={"goldenrod"}
         variant="h6"
