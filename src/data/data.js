@@ -8,22 +8,23 @@ import HamburArroz from "../assets/imageFood/HamburLentejas.jpg";
 export const MenuList = [
   {
     name: "Panqueques de Garbanzo",
+    Ingredients:"",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Harina de Garbanzo, agua, sal y condimentos",
     image: PanqGarbanzos,
      author: "Marina López", 
   },
   {
     name: "Hamburgesas de Lentejas",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Cebolla de verdeo, ajo, lentejas cocidas, caldito de verdura, morrón, harina de arepas para unir",
     image: HamLent,
     author: "Marina López", 
   },
   {
     name: "Budín de Algarroba y Lentejas",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Lentejas, harina de algarroba, azucár mascabo, aceite, polvo de hornear",
     image: Alga,
     author: "Marina López", 
   },

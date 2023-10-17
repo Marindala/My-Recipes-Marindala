@@ -27,7 +27,8 @@ const Menu = () => {
                 <Typography variant="h5" gutterBottom component={"div"}>
                   {menu.name}
                 </Typography>
-                <Typography variant="body2">{menu.description}</Typography>
+                <Typography variant="body2">Ingredientes:{menu.Ingredients}</Typography>
+                <Typography variant="body2">Preparación:{menu.description}</Typography>
                 <Typography variant="h6">Compartido por 🌱:{menu.author}</Typography>
               </CardContent>
             </CardActionArea>
